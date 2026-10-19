@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Inter, Sora } from "next/font/google";
 import { MotionProvider } from "@/components/providers/MotionProvider";
 import { FavoritesProvider } from "@/components/providers/FavoritesProvider";
@@ -21,12 +21,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vantage-estates.vercel.app"),
-  title: "Vantage Estates — Find your vantage",
+  metadataBase: new URL("https://vantage-estates-two.vercel.app"),
+  title: "Vantage Estates â€” Find your vantage",
   description:
     "Browse condos, house-and-lot, townhouses, lots and commercial spaces across the Philippines.",
   openGraph: {
-    title: "Vantage Estates — Find your vantage",
+    title: "Vantage Estates â€” Find your vantage",
     description:
       "A modern Philippine property marketplace across BGC, Makati, Alabang, Tagaytay, Cebu, Quezon City, Batangas and Pampanga.",
     type: "website",

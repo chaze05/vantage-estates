@@ -1,7 +1,7 @@
-import type { MetadataRoute } from "next";
+﻿import type { MetadataRoute } from "next";
 import { PROPERTIES } from "@/data/properties";
 
-const BASE = "https://vantage-estates.vercel.app";
+const BASE = "https://vantage-estates-two.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = ["", "/listings", "/agents", "/contact"];
